@@ -13,5 +13,10 @@
         <members>Activity.Clone_Source_ID__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Event.CloneSourceID</members>
+        <members>Task.CloneSourceID</members>
+        <name>WebLink</name>
+    </types>
     <version>38.0</version>
 </Package>
