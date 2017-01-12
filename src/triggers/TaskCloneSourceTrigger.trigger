@@ -1,3 +1,8 @@
+/**
+ * Developed by Doug Ayers
+ * https://douglascayers.com
+ * https://github.com/DouglasCAyers/sfdc-activity-source-clone-id
+ */
 trigger TaskCloneSourceTrigger on Task ( before insert ) {
 
     for ( Task newTask : Trigger.new ) {
